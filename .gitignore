@@ -1,0 +1,30 @@
+# Dependencies
+**/node_modules/
+
+# Environment files
+**/.env
+**/.env.*
+
+# Build outputs
+**/dist/
+
+# Logs
+**/*.log
+
+# Playwright
+**/playwright-report/
+**/test-results/
+
+# Generated scraper files
+backend/downloads/
+backend/*.json
+backend/*.csv
+backend/*.xlsx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

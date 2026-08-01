@@ -1,0 +1,22 @@
+{
+  "name": "scraper-dashboard-backend",
+  "version": "1.0.0",
+  "description": "Express + Playwright backend for the scraper dashboard",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "playwright": "^1.47.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
