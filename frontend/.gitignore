@@ -18,7 +18,7 @@ test-results/
 
 # Downloads
 downloads/
-*.json
+
 *.csv
 *.xlsx
 
